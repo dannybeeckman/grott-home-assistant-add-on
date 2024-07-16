@@ -2,10 +2,6 @@
 channel: stable
 addons:
   grott:
-    repository: egguy/addon-grott
+    repository: dannybeeckman/addon-grott
     target: grott
-    image: ghcr.io/egguy/grott/{arch}
-  grott-beta:
-    repository: egguy/addon-grott-beta
-    target: grott-beta
-    image: ghcr.io/egguy/grott-beta/{arch}
+    image: ghcr.io/dannybeeckman/grott/{arch}
